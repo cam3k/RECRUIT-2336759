@@ -8,9 +8,9 @@ that add two integers:
 - second selected by random from in-memory H2 database populated with 1000 random numbers on startup
 
 Stack:
-Java 11
-Spring Boot
-JPA
-Junit
-Maven
-Lombok
+- Java 11
+- Spring Boot
+- JPA
+- Junit
+- Maven
+- Lombok
