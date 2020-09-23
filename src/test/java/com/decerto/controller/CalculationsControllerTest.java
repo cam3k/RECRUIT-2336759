@@ -1,6 +1,5 @@
 package com.decerto.controller;
 
-import com.decerto.service.NumberService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +31,6 @@ public class CalculationsControllerTest {
 
     @Test
     void addTwoIntegers() throws Exception {
-        mockMvc.perform(get("/add")).andExpect(status().isOk()).andDo(print());
+        mockMvc.perform(get("/sum")).andExpect(status().isOk()).andDo(print());
     }
 }
